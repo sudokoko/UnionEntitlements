@@ -1,0 +1,22 @@
+{
+  "name": "unionentitlements",
+  "version": "1.0.0",
+  "description": "Some OAuth thing. I don't know.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudokoko/UnionEntitlements.git"
+  },
+  "author": "sudokoko",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sudokoko/UnionEntitlements/issues"
+  },
+  "homepage": "https://github.com/sudokoko/UnionEntitlements#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

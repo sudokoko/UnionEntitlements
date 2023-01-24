@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Some OAuth thing. I don't know.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },

@@ -1,4 +1,5 @@
 const express = require('express')
+const fetch = require('node-fetch')
 const handler = express()
 const port = process.env.PORT
 

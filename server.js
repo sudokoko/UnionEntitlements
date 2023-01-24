@@ -1,7 +1,7 @@
 import express from 'express'
 import fetch from 'node-fetch'
 const handler = express()
-const port = process.env.PORT
+const port = process.env.PORT || 80
 
 function EntitlementsLog(msg) {
     console.log(`<CoreEntitlements> [Main:Info] ` + msg)

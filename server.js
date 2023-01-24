@@ -1,6 +1,6 @@
 const express = require('express')
 const handler = express()
-const port = 80
+const port = process.env.PORT
 
 function EntitlementsLog(msg) {
     console.log(`<CoreEntitlements> [Main:Info] ` + msg)

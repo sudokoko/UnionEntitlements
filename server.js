@@ -28,8 +28,8 @@ handler.get('/entitlement/:user/:id/:token', async (req, res) => {
             })
             
             outputJson = await response.json()
-            console.log(res.json(outputJson))
-            return res.status(200).send("Entitlement granted. You can now close this window.")
+            console.log(outputJson)
+            res.status(200).send("Entitlement granted. You can now close this window.")
         }
         else {
             res.status(403).send("Entitlement grant failed. No authorization.");
